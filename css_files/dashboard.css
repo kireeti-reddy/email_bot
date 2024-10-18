@@ -1,0 +1,104 @@
+/* Apply a gradient background to the body */
+body {
+    background: linear-gradient(90deg, #000000 0%, #434343 100%);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Container to hold the table */
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1100px;
+    margin: 40px auto;
+    overflow: hidden; /* Ensure content fits within rounded corners */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+thead tr {
+    background: #333;
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tbody tr:hover {
+    background: #f1f1f1;
+}
+
+/* Add this rule to make the text color in tbody black */
+tbody td {
+    color: black;
+}
+
+#User_table{
+    color: black;
+}
+/* Styling for the buttons */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Arial';
+    font-size: 16px;
+}
+
+#logoutButton {
+    float: right;
+    text-align: right;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    color: #EDEADE;
+}
+
+#reminder-button {
+    background-color: #008CBA; /* Blue */
+}
+
+/* Clear floats after the buttons */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav {
+    padding: 30px;
+    background: linear-gradient(90deg, #000000 0%, #434343 100%);
+}
